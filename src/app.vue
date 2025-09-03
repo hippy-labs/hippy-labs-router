@@ -7,11 +7,9 @@
 </template>
 <script lang="ts">
 import { defineComponent } from "@vue/runtime-core";
-import HippyLabsComponent from "./components/HippyLabsComponent";
 
 export default defineComponent({
   name: "App",
-  components: { HippyLabsComponent },
   setup() {
     return {};
   },
